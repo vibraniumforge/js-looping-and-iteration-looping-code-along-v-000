@@ -8,5 +8,9 @@ function printBadges(names) {
 
 
 function tailsNeverFails() {
+  let number=math.random();
+  while( number >0.5) {
+
+  }
 
 }
