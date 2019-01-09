@@ -12,8 +12,8 @@ function tailsNeverFails() {
   let counter=0;
   console.log(number);
   console.log(counter);
-  // while ( number < 0.5) {
-  //   counter++;
-  // }
+  while ( number < 0.5) {
+    counter++;
+  }
   console.log("`You got ${counter} tails in a row!`");
 }
