@@ -11,8 +11,8 @@ function tailsNeverFails() {
   function random() {
     return Math.random() >=0.5;
   }
-  let counter=0;
   while (random()) {
+    let counter=0;
     counter++;
   }
   return console.log(`You got ${counter} tails in a row!`);
