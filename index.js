@@ -8,10 +8,10 @@ function printBadges(names) {
 
 
 function tailsNeverFails() {
-  let number=math.random();
+  let number=Math.random();
   let counter=0
   while( number < 0.5) {
     counter++;
   }
-  console.log(`You got tails #{counter} times`)
+  console.log(`You got tails #{counter} times`);
 }
